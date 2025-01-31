@@ -1,0 +1,161 @@
+@font-face {
+    font-family: Lato-Regular;
+    src: url("file/Lato-Regular.ttf");
+}
+  
+.comic-neue-regular {
+    font-family: "Comic Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.comic-neue-bold {
+    font-family: "Comic Neue", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.inder-regular {
+    font-family: "Inder", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+body {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 720px;
+    gap: 0;
+}
+
+#visit-cirebon {
+    text-shadow: 0px 0px 5px purple;
+}
+
+#enjoy {
+    display: block;
+    width: 550px;
+    padding-left: 85px;
+    text-align: center;
+    text-shadow: 0px 0px 5px purple;
+}
+
+#vst {
+    background-image: url("file/cirebon.jpg");
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    gap: 0px;
+    opacity: 0px;
+    color: aliceblue;
+    font-family: Lato-Regular;
+    padding-top: 50px;
+}
+
+#wis { 
+    position: absolute;
+    align-items: center;
+    width: 720px;
+    height: 378px;
+    top: 343px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #f1faee;
+}
+
+#topthree {
+    display: block;
+    padding-top: 15px;
+    font-family: "Inder", serif;
+}
+
+#img {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#namatempat {
+    padding-top: 7px;
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    height: 47px;
+}
+
+#deskripsi {
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    
+}
+
+.kt {
+    width: 140px;
+    align-items: center;
+    display: block;
+    font-family: "Inder", serif;
+}
+
+.keterangan {
+    width: 160px;
+    align-items: center;
+    display: block;
+    font-family: "Comic Neue", serif;
+    font-weight: 400;
+}
+
+
+#btw, #kk, #teln {
+    display: block;
+    border: none;
+    border-radius: 50%;
+    width: 120px;
+}
+
+#foto {
+    height: 200px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+}
+
+#your-guide {
+    position: absolute;
+    width: 720px;
+    height: 394px;
+    top: 721px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 135px;
+    padding-top: 50px;  
+}
+
+#pengenalan {
+    display: block;
+    width: 200px;
+}
+
+#ygd {
+    text-shadow: 0 0 2px rgb(92, 77, 11);
+}
+
+#my-profile {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(58, 94, 161);
+    color: aliceblue;
+    border: none;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 6px;
+    width: 450px;
+    height: 250px;
+    box-shadow: 5px 5px 0 #1D3557;
+}
+
+#name {
+    text-shadow: 0 0 1px#1D3557;
+}
